@@ -26,6 +26,10 @@ black: #000
     font-family: 'Patrick Hand', cursive;
 }
 
+.among {
+    font-family: 'Alexandria', sans-serif;
+}
+
 .navbar-links ul {
     margin: 0;
     padding: 0;
@@ -85,6 +89,14 @@ black: #000
     text-decoration: none;
     color: #BBE1FA;
     display: block;
+}
+
+.fa-github {
+    color: #3282B8;
+}
+
+.fa-file {
+    color: #3282B8;
 }
 
 

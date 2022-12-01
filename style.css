@@ -1,9 +1,9 @@
 /*
 Color Palette
-background color: #200439 #1B262C
-primary: #512C73 #0F4C75 
-secondary: #361356 #3282B8
-tertiary: #6F4D8F #BBE1FA
+background color: #1B262C
+primary: #0F4C75 
+secondary: #3282B8
+tertiary: #BBE1FA
 accent: #9277AC
 vegasGold: #c5b358
 white: #fff
@@ -174,6 +174,18 @@ footer {
 .heroImage img:hover {
     transform: scale(1.1);
 }
+
+.aboutMe {
+    background-color: #fff;
+    color: #1B262C;
+    margin: 4rem 3rem;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    border: 1px solid #9277AC;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 5px #000;
+}
+
 
 @media (min-width: 800px) {
     .hero {
