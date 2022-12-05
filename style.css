@@ -18,7 +18,7 @@ html {
 body{
     margin: 0;
     padding: 0;
-    font-family: 'open sans', sans-serif;
+    font-family: 'Alexandria', sans-serif;
     font-weight: 300;
     background-color: #0F4C75;
     color: #fff;
@@ -163,7 +163,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin: 0.5;
     height: 80vh;
 }
 
@@ -176,15 +176,31 @@ footer {
 }
 
 .aboutMe {
-    background-color: #fff;
+    background-color: #BBE1FA;
     color: #1B262C;
-    margin: 4rem 3rem;
+    margin: 3rem 4rem;
     padding: 0.5rem 2rem;
     text-align: center;
     border: 1px solid #9277AC;
     border-radius: 1rem;
     box-shadow: 10px 10px 5px #000;
+    font-size: 1rem;
 }
+
+.aboutMe img {
+    border-radius: 2rem;
+    box-shadow: 8px 8px 4px #3282B8;
+    width: 100%;
+    height: auto;
+}
+
+.aboutMe img:hover {
+    transition: .3s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+
 
 
 @media (min-width: 800px) {
@@ -216,5 +232,16 @@ footer {
     
     .projectCard {
         max-width: 20%;
+    }
+    
+    .aboutMe {
+        font-size: 1.5rem;
+    }
+    
+    .aboutMe img {
+        border-radius: 2rem;
+        width: 60%;
+        height: auto;
+        margin: 2rem;
     }
 }
