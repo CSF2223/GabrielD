@@ -77,6 +77,8 @@ body{
     color: #1B262C;
     text-decoration: none;
     box-shadow: 8px 8px 4px #000;
+    transition: .3s ease-in-out;
+    transition: color.3s ease-in-out, box-shadow .3s ease;
 }
 
 .button:hover {
@@ -158,21 +160,21 @@ footer {
     display: block;
 }
 
-.filler {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0.5;
-    height: 80vh;
-}
-
 .heroButton:hover {
     transform: scale(1.1);
 }
 
 .heroImage img:hover {
     transform: scale(1.1);
+}
+
+.filler {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 80vh;
 }
 
 .aboutMe {
@@ -184,7 +186,7 @@ footer {
     border: 1px solid #9277AC;
     border-radius: 1rem;
     box-shadow: 10px 10px 5px #000;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .aboutMe img {
@@ -192,12 +194,22 @@ footer {
     box-shadow: 8px 8px 4px #3282B8;
     width: 100%;
     height: auto;
+    transition: .3s ease-in-out;
 }
 
 .aboutMe img:hover {
-    transition: .3s ease-in-out;
     transform: scale(1.1);
 }
+
+.AboutMeHeader {
+    transition: color.3s ease-in-out, box-shadow .3s ease;
+}
+
+.AboutMeHeader:hover {
+    color: #3282B8;
+    box-shadow: inset 2000px 0 0 0 #BBE1FA;
+}
+
 
 
 
